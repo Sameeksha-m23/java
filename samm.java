@@ -1,7 +1,14 @@
+import java.util.Scanner;
 public class samm {
     public static void main(String[] args) {
-        System.out.print("Hello, World!");
-        System.out.println("Hello, World!");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        System.err.println(sum);
+    
+
+
 
     }
     
